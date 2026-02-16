@@ -1,98 +1,59 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<style>
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-h2, p {
-  margin: 10px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgba(172, 59, 55, 0.8);
-}
-
-li {
-  float: left;
-}
-
-li a, .dropbtn {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: rgba(172, 59, 55, 0.8);
-}
-
-li.dropdown {
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1;}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-</style>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mi - Lidia Ramirez</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
-
 <body>
 
-<ul>
-  <li><a href="index.html">Inicio</a></li>
-  <li><a href="Page2.html">Sobre mi</a></li>
-  <li class="dropdown">
-    <a href="Page1.html" class="dropbtn">Proyectos</a>
-    <div class="dropdown-content">
-      <a href="#">Oc</a>
-      <a href="#">Animales</a>
-      <a href="#">Pegatinas </a>
-      <a href="#">3D </a>
+    <h1>PORTAFOLIO</h1>
+
+    <ul class="navbar">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Page2.html">Sobre mi</a></li>
+        <li class="dropdown">
+            <a href="Page1.html" class="dropbtn">Proyectos</a>
+            <div class="dropdown-content">
+                <a href="Page1.html#Oc">Oc</a>
+                <a href="Page1.html#Animales">Animales</a>
+                <a href="Page1.html#Pegatinas">Pegatinas</a>
+                <a href="Page1.html#3D">3D</a>
+            </div>
+        </li>
+        <li><a href="Page3.html">Contacto</a></li>
+    </ul>
+
+    <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 100px; margin-top: 50px; background-color: #FAF9F6;">
+        
+        <div style="max-width: 500px;">
+            <h1 style="font-family: 'MiFuenteNeural', sans-serif; color: rgba(113, 36, 36, 0.9); text-align: left; margin-top: 0;">
+                HOLA,
+            </h1>
+            <p style="font-family: 'MiFuenteCode', sans-serif; color: black; line-height: 1.6;">
+                Soy Lidia Ramirez Navarrete, artista 2D/3D especializada en diseño de personajes, entornos y animaciones. 
+            </p>
+            <p style="font-family: 'MiFuenteCode', sans-serif; color: black; line-height: 1.6;">
+                Apasionada por la creación de fondos y personajes, con especial interés por la animación 2D y modelado 3D. Combinando creatividad y técnica para desarrollar contenido visual innovador y de alta calidad.
+            </p>
+            <p style="font-family: 'MiFuenteCode', sans-serif; color: black; line-height: 1.6;">
+                Aquí puedes ver mi trabajo y mis proyectos actuales.
+            </p>
+        </div>
+
+        <img src="Assets/imagenes/Foto_perfil.png" 
+             alt="Foto_perfil" 
+             width="500" 
+             height="500" 
+             style="border-radius: 10px; border: 4px solid rgba(113, 36, 36, 0.9);">
     </div>
-    <li><a href="Page3.html">Contacto</a></li>
-  </li>
-</ul>
 
-
+    <footer>
+        <p style="text-align: center; padding: 20px; border-top: 1px solid rgba(113, 36, 36, 0.1); margin-top: 40px;">
+            © 2026 – Lidia Ramirez Navarrete
+        </p>
+    </footer>
 
 </body>
-<body>
-
-  <h1>Sobre mi</h1>
-  <p>Soy Lidia Ramirez Navarrete, artista y animadora en 3D y 2D.</p>
-  <img src="Assets/imagenes/Foto_perfil.png" alt="Foto_perfil" width="600" height="600">
-  <footer>
-        <p>© 2026 – Lidia Ramirez Navarrete</p>
-
-  </footer>
- </body>
 </html>
